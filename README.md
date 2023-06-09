@@ -1,39 +1,116 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Collabra
+Developer: Jhoan Trujillo
 
-Welcome,
+<!-- Responsible image testing -->
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Introduction
+Collabra is a static website designed to mimic the user experience of contracting companies. As a fictitious project management firm, Collabra offers a range of talented professionals available for hire. Clients can browse through a portfolio of skilled project managers, consultants, and team members. Attention to detail, and a commitment to on-time, on-budget delivery, Collabra ensures a seamless and successful project execution.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Table Of Content
+1. Project Goals
+   - Site Owner Goals
+2. User Experience
+   - Target Audience
+   - Requirements
+   - User Stories
+3. Design Principels
+   - Fonts
+   - Color Scheme & Accessibility
+   - Imagery
+4. Technology Used
+   - languages
+   - Tools
+5. Wireframe
+6. Features
+   - Home Page
+   - Talent
+   - Consultation
+7. Testing
+8. Deployment
+9. Credits
 
-## Codeanywhere Reminders
+## Project Goals
+Placeholder
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Site Owner Goals
+As site owner for Collabra, there is a couple of requirements for the site:
 
-`python3 -m http.server`
+- Create an engaging and user-friendly platform.
+- Showcase a curated selection of talented project management professionals and Demonstrate the expertise and qualifications of available professionals.
+- Attract potential clients seeking reliable project management support.
+- Establish Collabra as a trusted and competent project management firm.
+- Emphasize the company's commitment to client satisfaction and successful project outcomes.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## User Experience
+placeholder
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Design Principels 
+These are the design principels that guide the design choices for Collabra:
 
-`http_server`
+1. **Simplicity and User-Friendliness:** The Collabra website embraces a clean and intuitive design, ensuring ease of navigation and a user-friendly experience for visitors.
+2. **Clear Communication:** The website prioritizes clear and concise communication to convey information effectively. Content is presented in a straightforward manner, enabling visitors to easily understand the services offered and the value proposition of Collabra.
+3. **Professionalism and Reliability:** The website upholds a professional image, reflecting Collabra as a reliable project management company. The design, content, and tone maintain a high standard of quality and professionalism throughout.
+4. **Accessibility:** The website is designed to be accessible to all users. Considerations such as color contrast, font choices, and responsive layout ensure that the content is readable and usable across different devices and for individuals with varying abilities.
+3. **Trust and Transparency:** Collabra maintains transparency by providing clear information about its processes, methodologies, and project management approach. This instills trust in potential clients, enabling them to make informed decisions and feel confident in choosing Collabra as their project management partner.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Fonts
+Placeholder
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Color Scheme & Accessibility
+For the Collabra website, a color scheme was carefully chosen to strike a balance between seriousness and playfulness, reflecting trust, positive metrics, and flexibility. The color gamma consists of the following key colors:
 
-To log into the Heroku toolbelt CLI:
+Background: #262626
+Foreground: #fafafa
+Accent 1: #D6D0FB
+Accent 2: #9DE1C8
+All colors in the Collabra color scheme have been carefully checked for contrast to ensure accessibility for all users.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The choice of a dark background (#262626) provides a sense of stability and sophistication, while the light foreground color (#fafafa) ensures readability and contrast.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Accent color #D6D0FB is employed to convey trust and reliability, serving as a prominent color for important elements throughout the website. This color choice fosters a professional and serious atmosphere.
 
----
+Additionally, accent color #9DE1C8 adds a touch of playfulness and flexibility to the color scheme. It injects a vibrant and refreshing feel, harmonizing with the overall design while reflecting positive metrics and adaptability.
 
-Happy coding!
+By considering accessibility and using contrast-checked colors, the Collabra website achieves both a visually appealing design and a user-friendly experience for all visitors.
+
+### Imagery
+Placeholder
+
+## Technology Used
+Here I provide a break down of languages and technologies used when working on this project.
+
+### Languages
+The main languages used to building Collabra are:
+
+- HTML
+- CSS
+
+### Frameworks
+Some of the frameworks and conventions follow are: 
+
+- [BEM](https://getbem.com/introduction/) : For best CSS and UI element naming and to keep the project consistent
+
+### Tools
+
+Between the tools used to build Collabra are:
+
+- VS code - Code editor of choice.
+- Coolors.com - To come up with the color scheme and test contrast
+
+## Wireframe
+Placeholder
+
+## Features
+Placeholder
+
+## Testing 
+Some of the accessibility testing made for the project and the results: 
+
+
+
+## Deployment
+Placeholder
+
+## Credits
+Place holder
