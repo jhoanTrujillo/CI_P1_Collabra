@@ -26,6 +26,7 @@
 /* General Style */
 
 body {
+    color: var(--fg-color);
     height: 100vh;
     /* Fallback Background */
     background: var(--bg-color);
@@ -34,6 +35,19 @@ body {
     background: -webkit-linear-gradient(0deg, rgba(38,38,38,1) 0%, rgba(68,68,68,1) 35%, rgba(66,66,66,1) 100%);
     background: linear-gradient(0deg, rgba(38,38,38,1) 0%, rgba(68,68,68,1) 35%, rgba(66,66,66,1) 100%);
     background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 160%;
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+}
+
+.btn {
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    border: none;
+    padding: 1.1em;
 }
 
 .active {
@@ -50,10 +64,9 @@ body {
     margin: 2em 0;
 }
 
-.header__title a {
-    color: var(--accent-color);
-    font-family: var(--heading-font);
-    font-size: 160%;
+.header__logo {
+  text-align: center;
+  width: 30%;
 }
 
 .header__navbar {
@@ -64,6 +77,7 @@ body {
 .header__navbar-item {
     color: var(--fg-color);
     font-family: var(--paragraph-font);
+    font-size: 130%;
     font-weight: 400;
 }
 
@@ -72,4 +86,47 @@ body {
     text-decoration: underline;
 }
 
-/* Homepage signup */
+/* Homepage - Sign up */
+
+.signup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10em 0;
+    padding: 0 10%;
+    gap: 10%;
+}
+
+.signup__title {
+    width: 100%;
+    font-size: 260%;
+}
+
+.signup__description {
+    width: 100%;
+    font-size: 1.5em;
+    font-family: var(--paragraph-font);
+}
+
+.signup__form {
+    margin: 1em 0;
+}
+
+.signup__input {
+    border: #e4e4e4 1px solid;
+    border-radius: 10px;
+    font-family: var(--paragraph-font);
+    height: 6vh;
+    width: 60%;
+    padding-left: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.signup__button {
+    font-family: var(--paragraph-font);
+}
+
+.signup__image {
+    width: 50%;
+}

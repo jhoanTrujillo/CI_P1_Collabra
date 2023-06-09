@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" signup="IE=edge">
+    <meta name="viewport" signup="width=device-width, initial-scale=1.0">
     <title>Collabra</title>
-    <meta name="keywords" content="Project Management, Recruitment, Outsourcing, 
+    <meta name="keywords" signup="Project Management, Recruitment, Outsourcing, 
     Talent, Agile, Waterfall, Scrum, Quality Testing, development">
 
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -14,18 +14,28 @@
 <body>
     
     <header class="header">
-
-        <h1 class="header__title">
-            <a href="index.html">Collabra</a>
-        </h1>
+        <a href="index.html">
+            <img class="header__logo" src="/assets/images/logo_500_100.png" alt="">
+        </a>
         <nav class="header__navbar">
             <a href="index.html" class="header__navbar-item active">Home</a>
-            <a href="#" class="header__navbar-item">Talent</a>
-            <a href="#" class="header__navbar-item">Inquire</a>
+            <a href="talent.html" class="header__navbar-item">Talent</a>
+            <a href="inquire.html" class="header__navbar-item">Inquire</a>
         </nav>
     </header>
 
-    
+    <section class="signup">
+        <div class="signup__container">
+          <h2 class="signup__title title">Plan. Evaluate. And everything in between</h2>
+          <p class="signup__description">With an array of experts ready to ease the weight off your team.</p>
+          <form class="signup__form" action="#" method="POST">
+            <input type="email" class="signup__input" placeholder="Enter your email">
+            <button type="submit" class="btn signup__button">Get started</button>
+          </form>
+        </div>
+        <img src="/assets/images/collaboration_desktop.svg" alt="Image description" class="signup__image">
+      </section>
+
 
 </body>
 </html>
