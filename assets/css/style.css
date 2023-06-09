@@ -1,0 +1,75 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;1,400&family=Rubik:ital,wght@0,700;1,700&display=swap');
+
+/* CSS variables*/
+:root {
+    /* Background Color */
+    --bg-color: #262626;
+    /*Foreground Color*/
+    --fg-color: #fafafa;
+    --accent-color: #9dE1c8;
+    --accent-color-2: #719aa4;
+    
+    /* Fonts */
+    --heading-font: "Rubik", sans-serif;
+    --paragraph-font: "Roboto Mono", sans-serif;
+}
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* General Style */
+
+body {
+    height: 100vh;
+    /* Fallback Background */
+    background: var(--bg-color);
+    /* Gradient Background */
+    background: -moz-linear-gradient(0deg, rgba(38,38,38,1) 0%, rgba(68,68,68,1) 35%, rgba(66,66,66,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(38,38,38,1) 0%, rgba(68,68,68,1) 35%, rgba(66,66,66,1) 100%);
+    background: linear-gradient(0deg, rgba(38,38,38,1) 0%, rgba(68,68,68,1) 35%, rgba(66,66,66,1) 100%);
+    background-repeat: no-repeat;
+}
+
+.active {
+    color: var(--accent-color) !important;
+    text-decoration: underline;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5em;
+    margin: 2em 0;
+}
+
+.header__title a {
+    color: var(--accent-color);
+    font-family: var(--heading-font);
+    font-size: 160%;
+}
+
+.header__navbar {
+    display: flex;
+    gap: 3em;
+}
+
+.header__navbar-item {
+    color: var(--fg-color);
+    font-family: var(--paragraph-font);
+    font-weight: 400;
+}
+
+.header__navbar-item:hover:not(.active) {
+    color: var(--accent-color-2);
+    text-decoration: underline;
+}
+
+/* Homepage signup */
