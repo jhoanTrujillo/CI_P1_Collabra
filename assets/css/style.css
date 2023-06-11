@@ -139,6 +139,21 @@ body {
 
 .signup__image {
     width: 50%;
+    animation: fadeInAnimation ease 3s;
+    transition: ease 0.4s;
+}
+
+.signup__image:hover {
+    transform: scale(1.05);
+}
+/* Sign up image animation */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 /* Homepage - Partner logos*/
@@ -154,13 +169,12 @@ body {
 h2.clients__title {
     text-align: center;
     font-size: 3em;
-    margin-bottom: 1em ;
     padding: 0.5em 0 1em 0;
+    transition:  0.4s ease;
 }
 
 h2.clients__title:hover {
     color: var(--accent-highlihgts);
-    transition:  0.4s ease;
 }
 
 .clients__logos {
@@ -168,8 +182,12 @@ h2.clients__title:hover {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 5em;
-    margin: 3em 0;
+    padding: 3em;
     max-width: 70%;
+    border: 2px solid #454545;
+    border-radius: 6px;
+    background-color: #262626;
+    margin-bottom: 5em ;
 }
 
 .clients__partner-logo {
