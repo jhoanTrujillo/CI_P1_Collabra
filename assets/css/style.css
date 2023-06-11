@@ -39,7 +39,7 @@ body {
 }
 
 .title {
-    font-size: 160%;
+    font-size: 260%;
     font-family: var(--heading-font);
     color: var(--accent-color);
 }
@@ -53,9 +53,15 @@ body {
 }
 
 .btn:hover {
-    color: var(--fg-color);
+    color: var(--bg-color);
     background-color: var(--accent-color);
     border-radius: 10px;
+}
+
+.paragraph {
+    width: 100%;
+    font-size: 1.5em;
+    font-family: var(--paragraph-font);
 }
 
 .active {
@@ -109,12 +115,6 @@ body {
 .signup__title {
     width: 100%;
     font-size: 260%;
-}
-
-.signup__description {
-    width: 100%;
-    font-size: 1.5em;
-    font-family: var(--paragraph-font);
 }
 
 .signup__form {
@@ -184,7 +184,7 @@ h2.clients__title:hover {
     gap: 5em;
     padding: 3em;
     max-width: 70%;
-    border: 2px solid #454545;
+    border: 3px solid #636262;
     border-radius: 6px;
     background-color: #262626;
     margin-bottom: 5em ;
@@ -197,4 +197,39 @@ h2.clients__title:hover {
 
 .clients__partner-logo:hover {
     transform: scale(1.2);
+}
+
+/* Home page - text with image */
+.text-image {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 0;
+}
+
+.text-image__media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-image__image {
+    width: 80%;
+    margin-bottom: 3em;
+}
+
+.text-image__button {
+    padding: 1em 5em;
+}
+
+.text-image__content {
+    width: 80%;
+}
+
+h2.text-image__title {
+    font-size: 10em;
 }
