@@ -7,8 +7,9 @@
     --bg-color: #262626;
     /*Foreground Color*/
     --fg-color: #fafafa;
-    --accent-color: #9dE1c8;
-    --accent-color-2: #719aa4;
+    --accent-color: #62d6ab;
+    --accent-highlihgts: #3df4b1;
+    --accebt-color-3: #A4036F;
     
     /* Fonts */
     --heading-font: "Rubik", sans-serif;
@@ -27,7 +28,7 @@
 
 body {
     color: var(--fg-color);
-    height: 100vh;
+    height: 100%;
     /* Fallback Background */
     background: var(--bg-color);
     /* Gradient Background */
@@ -44,10 +45,17 @@ body {
 }
 
 .btn {
+    color: var(--fg-color);
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid var(--accent-color);
+    transition: 0.4s ease;
+}
+
+.btn:hover {
+    color: var(--fg-color);
     background-color: var(--accent-color);
     border-radius: 10px;
-    border: none;
-    padding: 1.1em;
 }
 
 .active {
@@ -56,6 +64,7 @@ body {
 }
 
 /* Header */
+
 .header {
     display: flex;
     align-items: center;
@@ -82,7 +91,7 @@ body {
 }
 
 .header__navbar-item:hover:not(.active) {
-    color: var(--accent-color-2);
+    color: var(--accent-highlihgts);
     text-decoration: underline;
 }
 
@@ -116,7 +125,7 @@ body {
     border: #e4e4e4 1px solid;
     border-radius: 10px;
     font-family: var(--paragraph-font);
-    height: 6vh;
+    height: 4em;
     width: 60%;
     padding-left: 1em;
     margin-top: 1em;
@@ -125,8 +134,49 @@ body {
 
 .signup__button {
     font-family: var(--paragraph-font);
+    padding: 1.5em;
 }
 
 .signup__image {
     width: 50%;
+}
+
+/* Homepage - Partner logos*/
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+h2.clients__title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 1em ;
+    padding: 0.5em 0 1em 0;
+}
+
+h2.clients__title:hover {
+    color: var(--accent-highlihgts);
+    transition:  0.4s ease;
+}
+
+.clients__logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 5em;
+    margin: 3em 0;
+    max-width: 70%;
+}
+
+.clients__partner-logo {
+    width: 100%;
+    transition: 0.4s ease-in-out;
+}
+
+.clients__partner-logo:hover {
+    transform: scale(1.2);
 }
