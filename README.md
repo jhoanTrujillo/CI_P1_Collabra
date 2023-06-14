@@ -75,7 +75,11 @@ Additionally, accent color #9DE1C8 adds a touch of playfulness and flexibility t
 By considering accessibility and using contrast-checked colors, the Collabra website achieves both a visually appealing design and a user-friendly experience for all visitors.
 
 ### Imagery
-Placeholder
+Some sites use for the images of this project are: 
+
+- https://icons8.com/
+- https://undraw.co/
+- https://pexel.com
 
 ## Technology Used
 Here I provide a break down of languages and technologies used when working on this project.

@@ -336,3 +336,15 @@ h2.text-image__title {
 }
 
 /* Footer */
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1em;
+    margin: 0 auto;
+    padding: 1em 3em;
+    margin-top: 3em;
+}
+
+
+
+
