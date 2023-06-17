@@ -342,8 +342,12 @@ h2.text-image__title {
 /* Footer */
 
 .footer {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     border-top: 2px solid lightslategray;
-    background-color: var(--bg-color);
+    background-color: var(--bg-color);   
+    gap: 1em;
+    padding: 2em 5em;
+    justify-content: center;
+    align-items: center;
 }
