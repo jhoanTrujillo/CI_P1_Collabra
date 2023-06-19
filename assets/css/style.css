@@ -8,7 +8,7 @@
     /*Foreground Color*/
     --fg-color: #fafafa;
     --accent-color: #62d6ab;
-    --accent-highlihgts: #3df4b1;
+    --accent-color-dark: #459578;
     --accebt-color-3: #A4036F;
     
     /* Fonts */
@@ -57,10 +57,14 @@ body {
 
 .btn {
     color: var(--fg-color);
+    font-family: var(--paragraph-font);
     background-color: transparent;
     border-radius: 10px;
+    padding: 1em;
     border: 2px solid var(--accent-color);
     transition: 0.4s ease;
+    width: 60% ;
+    margin-top: 1em;
 }
 
 .btn:hover {
@@ -72,6 +76,18 @@ body {
 .active {
     color: var(--accent-color) !important;
     text-decoration: underline;
+}
+
+.form-input {
+    border: #e4e4e4 1px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: var(--paragraph-font);
+    height: 4em;
+    width: 60%;
+    padding-left: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
 }
 
 /* Header */
@@ -102,7 +118,7 @@ body {
 }
 
 .header__navbar-item:hover:not(.active) {
-    color: var(--accent-highlihgts);
+    color: var( --accent-color-dark);
     text-decoration: underline;
 }
 
@@ -124,6 +140,8 @@ body {
 
 .signup__form {
     margin: 1em 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .signup__input {
@@ -139,7 +157,8 @@ body {
 
 .signup__button {
     font-family: var(--paragraph-font);
-    padding: 1.5em;
+    width: 30%;
+    margin-top: 1em;
 }
 
 .signup__image {
@@ -179,7 +198,7 @@ h2.clients__title {
 }
 
 h2.clients__title:hover {
-    color: var(--accent-highlihgts);
+    color: var( --accent-color-dark);
 }
 
 .clients__logos {
@@ -337,6 +356,13 @@ h2.text-image__title {
     font-size: 1.3em;
 }
 
+/* Inquire Page */
+
+.inquire {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90vh;
+}
 
 
 /* Footer */

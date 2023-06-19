@@ -9,14 +9,17 @@
     <meta name="keywords" signup="Project Management, Recruitment, Outsourcing, 
     Talent, Agile, Waterfall, Scrum, Quality Testing, development">
 
+    <!-- Stylesheet call-->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/inquire.css">
 
 </head>
 
 <body>
+    <!-- Header -->
     <header class="header">
         <a href="index.html" aria-label="Home">
-            <img class="header__logo" src="/assets/images/logo_500_100.png" alt="">
+            <h1 class="title">Collabra</h1>
         </a>
         <nav class="header__navbar" aria-label="Main Navigation">
             <a href="index.html" class="header__navbar-item" aria-label="Link to home page">Home</a>
@@ -26,19 +29,22 @@
     </header>
 
     <!-- Sign up form for inquiries -->
-    <section class="signup">
-        <div class="signup__container">
-            <h2 class="signup__title title">Interested?</h2>
-            <p class="paragraph">We love to clarify any doubt you might have and ensure we understand your needs, expectations, and other details of your project.</p>
-            <form class="signup__form" action="#" method="POST">
-                <input type="text" name="signup" class="signup__input" placeholder="Full Name" required>
-                <input type="text" name="signup" class="signup__input" placeholder="Company Name" required>
-                <input type="email" name="signup" class="signup__input" placeholder="Enter your email" required>
-                <button type="submit" class="btn signup__button"><strong>Get started</strong></button>
+
+    <section class="inquire">
+        <div class="inquire__container">
+            <h2 class="inquire__title title">Get one of our experts.</h2>
+            <p class="inquire__paragraph paragraph">We love to clarify any doubt you might have and ensure we understand your needs, expectations, and other details of your project.</p>
+            <form class="inquire__form" action="#" method="POST">
+                <input type="text" name="signup" class="form-input" placeholder="Full Name" required>
+                <input type="text" name="signup" class="form-input" placeholder="Company Name" required>
+                <input type="email" name="signup" class="form-input" placeholder="Enter your email" required>
+                <input type="submit" class="btn inquire__button" value="Get started">
             </form>
         </div>
-        <img src="/assets/images/collaboration_desktop_accent.svg" alt="" class="signup__image">
+        <img src="/assets/images/email.svg" alt="" class="inquire__image">
     </section>
+
+    <!-- Footer starts here -->
 
     <footer class="footer">
       <div class="footer__content">
