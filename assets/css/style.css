@@ -423,6 +423,27 @@ h2.text-image__title {
         margin-top: 1.5em;
     }
     
+    /* Client Logos Section */
+    .clients {
+        background-color: #121111;
+    }
+
+    .clients h2 {
+        padding-top: 1.5em;
+        font-size: 2.1em;
+    }
+
+    .clients__logos {
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 1fr);
+        background: transparent;
+        border: none;
+    }
+
+    .clients__partner-logo {
+        width: 70%;
+        margin: 0 auto;
+    }
 
     /* Testimonials */
     .testimonials__container {
