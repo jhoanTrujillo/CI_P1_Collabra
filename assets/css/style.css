@@ -124,7 +124,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 10em 0;
+    margin: 5em 0;
     padding: 0 10%;
     gap: 10%;
 }
@@ -137,7 +137,7 @@ body {
 .signup__form {
     margin: 1em 0;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, fr);
 }
 
 .signup__input {
@@ -242,8 +242,8 @@ h2.clients__title:hover {
     margin-bottom: 3em;
 }
 
-.text-image__button {
-    padding: 1em 5em;
+.text-image__btn {
+    width: 100%;
 }
 
 .text-image__content {
@@ -258,13 +258,22 @@ h2.text-image__title {
 
 .employee-cards {
     margin: 5em;
-    padding: 2em
+    padding: 2em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .employee-cards > h2 {
     text-align: center;
     padding: 1em 0;
     font-size: 300%;
+}
+
+.employee-cards > a {
+    text-align: center;
+    min-width: 50%;
 }
 
 .employee-cards__container {
@@ -317,6 +326,10 @@ h2.text-image__title {
     border-radius: 50%;
 }
 
+.employee-card__btn {
+    text-align: center;
+}
+
 /* Testimonials */
 .testimonials {
     margin: 1em 0 10em 0;
@@ -331,7 +344,7 @@ h2.text-image__title {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10%;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -372,4 +385,48 @@ h2.text-image__title {
     padding: 2em 5em;
     justify-content: center;
     align-items: center;
+}
+
+/* Mobile Viewport */
+@media screen and (max-width: 750px) {
+    .paragraph {
+        font-size: 1em;
+    }
+    
+    .title {
+        font-size: 2em;
+    }
+
+    /* Header */
+    .header {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        gap: 1.5em
+    }
+
+    /* Signups */
+    .signup {
+        flex-direction: column;
+    }
+
+    .signup__form  input[type~=email] {
+        padding: .5em;
+    }
+
+    .signup__form button {
+        width: 100%;
+    }
+
+    .signup__image {
+        width: 80%;
+        margin-top: 1.5em;
+    }
+    
+
+    /* Testimonials */
+    .testimonials__container {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: none;
+    }
 }

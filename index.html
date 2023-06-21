@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" signup="IE=edge">
-    <meta name="viewport" signup="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Collabra</title>
     <meta name="keywords" signup="Project Management, Recruitment, Outsourcing, 
     Talent, Agile, Waterfall, Scrum, Quality Testing, development">
@@ -30,8 +30,8 @@
             <h2 class="signup__title title">Plan. Evaluate. And everything in between</h2>
             <p class="paragraph">With an array of experts ready to ease the weight off your team.</p>
             <form class="signup__form" action="#" method="POST">
-                <input type="email" name="signup" class="signup__input" placeholder="Enter your email">
-                <button type="submit" class="btn signup__button"><strong>Get started</strong></button>
+                <input type="email" name="signup" class="signup-field" placeholder="Enter your email">
+                <button type="submit" class="btn"><strong>Get started</strong></button>
             </form>
         </div>
         <img src="/assets/images/collaboration_desktop_accent.svg" alt="Image description" class="signup__image">
@@ -50,7 +50,7 @@
         <div class="text-image__media">
             <img class="text-image__image" src="/assets/images/collaboration_funnel.svg" alt="image of a team">
             <a href="/inquire.html" aria-label="click the button and move to the inquire page">
-                <button class="btn text-image__button">Inquire</button>
+                <button class="btn text-image__btn">Inquire</button>
             </a>
         </div>
         <div class="text-image__content">
@@ -97,17 +97,16 @@
                     <p class="paragraph">Joe Doe</p>
                 </div>
             </div>
-
-            <a href="/talent.html">
-                <button class="btn">Meet Our Team</button>
-            </a>
         </div>
+        <a href="/talent.html">
+            <button class="btn employee-card__btn">Meet Our Team</button>
+        </a>
     </section>
 
     <section class="testimonials">
         <h2 class="title">Testimonials</h2>
 
-        <section class="testimonials__container">
+        <div class="testimonials__container">
 
             <div class="testimonial-card">
                 <p class="testimonial-card__quote">
@@ -144,7 +143,7 @@
                     - Jeremy Walts, Woogle
                 </p>
             </div>
-        </section>
+        </div>
     </section>
 
     <footer class="footer">
@@ -162,7 +161,7 @@
           <h3 class="title">Stay up to date</h3>
           <p class="paragraph">The latest Project Management trends, tips, and techniques, in your inbox.</p>
           <form action="" method="">
-              <input type="email" name="" id="">
+              <input type="email" name="newsletter_email" id="newsletter" class="input-field">
               <input type="button" value="Stay in Touch">
           </form>
       </div>
