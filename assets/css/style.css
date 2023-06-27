@@ -343,7 +343,7 @@ h2.text-image__title {
 .testimonials__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10%;
+    gap: 2em;
     width: 80%;
     margin: 0 auto;
 }
@@ -364,15 +364,6 @@ h2.text-image__title {
     font-family: var(--paragraph-font);
     font-size: 1.3em;
 }
-
-/* Inquire Page */
-
-.inquire {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 90vh;
-}
-
 
 /* Footer */
 
@@ -465,5 +456,6 @@ h2.text-image__title {
     .testimonials__container {
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: none;
+        gap: 2em
     }
 }
