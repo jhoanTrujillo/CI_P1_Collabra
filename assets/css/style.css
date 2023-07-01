@@ -25,6 +25,7 @@
     padding: 0;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 /* General Style */
@@ -255,8 +256,7 @@ h2.clients__title {
 /* Employee cards*/
 
 .employee-cards {
-    margin: 5em;
-    padding: 2em;
+    padding: 1em;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -379,7 +379,7 @@ h2.clients__title {
 
 /* Mobile Viewport */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 480px) {
 
     /* General mobile style */
 
@@ -497,8 +497,16 @@ h2.clients__title {
         font-size: 1.5em;
         color: var(--accent-color);
     }
-    
 
+    .employee-card:nth-child(even) {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1em 0;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 4px;
+        gap: 1em
+    }
 
     /* Testimonials mobile */
     .testimonials__container {
