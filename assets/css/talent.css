@@ -1,4 +1,4 @@
-.text-container {
+/* .text-container {
     width: 50%;
     padding: 3em;
     margin: 0 auto;
@@ -32,9 +32,7 @@
 }
 
 .card__content:nth-child(1) {
-    /* fallback color*/
     background: rgb(69,149,120);
-    /* Gradient */
     background: linear-gradient(177deg, rgba(69,149,120,1) 0%, rgba(83,181,145,1) 31%, rgba(98,214,171,1) 100%);
 }
 
@@ -47,4 +45,4 @@
     text-align: left;
     justify-content: center;
     align-items: center;
-}
+} */

@@ -101,6 +101,7 @@ Between the tools used to build Collabra are:
 
 - VS code - Code editor of choice.
 - Coolors.com - To come up with the color scheme and test contrast
+- https://css.glass/ - Site where you can create background glassy effects for plain css.
 
 ## Wireframe
 Placeholder

@@ -48,3 +48,35 @@
 .inquire__button {
     margin-top: 10px;
 }
+
+/* Styles for mobile devices */
+
+@media screen and (max-width: 750px) {
+    .inquire {
+        padding: 10px;
+    }
+
+    .inquire__container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .inquire__title {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .inquire__paragraph {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .form-input {
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+}

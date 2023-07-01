@@ -190,11 +190,6 @@ h2.clients__title {
     text-align: center;
     font-size: 3em;
     padding: 0.5em 0 1em 0;
-    transition:  0.4s ease;
-}
-
-h2.clients__title:hover {
-    color: var( --accent-color-dark);
 }
 
 .clients__logos {
@@ -349,7 +344,12 @@ h2.text-image__title {
 }
 
 .testimonial-card {
-    border: 1px solid lightslategray;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    border: 1px solid rgba(255, 255, 255, 0.9);
     border-radius: 6px;
     padding: 1em;
     margin: auto;
