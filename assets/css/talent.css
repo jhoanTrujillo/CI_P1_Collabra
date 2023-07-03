@@ -1,48 +1,10 @@
-/* .text-container {
-    width: 50%;
-    padding: 3em;
-    margin: 0 auto;
-}
+/* Talent Page only style */
 
-.text-container > h2 {
-    word-break:break-all;
-
-}
-.card-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2em;
+.talent {
     width: 80%;
+    text-align: center;
     margin: 0 auto;
-}
-
-.card {
-    display: flex;
-    width: 100%;
-    border-radius: 6px;
-    border: 2px solid var(--fg-color);
-}
-
-.card__content {
-    display: flex;
-    justify-content: space-evenly;
+    height: 50vh;
     align-items: center;
-    flex-direction: column;
-    padding: 1em;
-}
-
-.card__content:nth-child(1) {
-    background: rgb(69,149,120);
-    background: linear-gradient(177deg, rgba(69,149,120,1) 0%, rgba(83,181,145,1) 31%, rgba(98,214,171,1) 100%);
-}
-
-.card__content img {
-    width: 50%;
-    border-radius: 50%;
-}
-
-.card__description {
-    text-align: left;
     justify-content: center;
-    align-items: center;
-} */
+}

@@ -7,9 +7,10 @@
     --bg-color: #262626;
     /*Foreground Color*/
     --fg-color: #fafafa;
-    --accent-color: #62d6ab;
-    --accent-color-dark: #459578;
-    --accebt-color-3: #A4036F;
+    /* Accent */
+    --accent-color: rgb(98, 214, 171);
+    /* Accent when action such as hover effects or highlights are needed */
+    --accent-color-action: #3a8469;
     
     /* Fonts */
     --heading-font: "Rubik", sans-serif;
@@ -366,7 +367,7 @@ h2.clients__title {
 
 /* Footer */
 
-.footer {
+#footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-top: 2px solid lightslategray;
@@ -377,12 +378,36 @@ h2.clients__title {
     align-items: center;
 }
 
+.footer__container {
+    
+}
+
+.footer__social {
+    
+}
+
+.footer__icon-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    font-size: 150%;
+    margin-top: 1em;
+}
+
+.fa-brands {
+    color: var(--accent-color);
+}
+
+.fa-brands:hover {
+    color: var(--accent-color-action);
+}
+
 /* Mobile Viewport */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 750px) {
 
     /* General mobile style */
-
     .paragraph {
         font-size: 1em;
     }
@@ -393,7 +418,12 @@ h2.clients__title {
 
     .btn {
         background-color: var(--accent-color);
+        color: var(--accent-color);
         width: 100%;
+    }
+
+    .mobile-hide {
+        display: none;
     }
 
     /* Header mobile */
@@ -516,10 +546,10 @@ h2.clients__title {
     }
 
     /* Mobile footer */
-    .footer {
+    #footer {
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-start;
-        padding: 1.5em 1em;
+        padding: 2em;
     }
 }
