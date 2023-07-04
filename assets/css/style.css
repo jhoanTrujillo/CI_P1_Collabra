@@ -325,45 +325,91 @@ h2.clients__title {
 }
 
 /* Testimonials */
-.testimonials {
-    margin: 1em 0 10em 0;
-}
 
-.testimonials h2 {
-    text-align: center;
-    margin: 1.5em;
+
+/* 
+* Testimonials cards
+*/
+
+#testimonials {
+    width: 100%;
+    background-color: var(--accent-color);
+    padding: 1em;
 }
 
 .testimonials__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2em;
     width: 80%;
     margin: 0 auto;
+    grid-template-columns: 30% auto;
 }
 
-.testimonial-card {
-    /* Glossy card style */
-    background: rgba(255, 255, 255, 0.09);
-    border-radius: 1em;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2.4px);
-    -webkit-backdrop-filter: blur(2.4px);
-    border: 1px solid rgba(255, 255, 255, 0.9);
-    border-radius: 6px;
+.testimonials__container 
+p, 
+h2 {
+    color: var(--bg-color);
+}
+
+.testimonials__container
+h2 {
+    margin-top: 1em;
+}
+
+.testimonial-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 400px;
+    margin: 1em;
+    background-color: var(--bg-color);
+    border-radius: 16px;
+
+    /* Browser compatible box shadow*/
+    box-shadow: 0px 0px 33px -6px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 0px 0px 33px -6px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 33px -6px rgba(0,0,0,0.45);
+}
+
+.card p {
+    line-height: 1.5em;
     padding: 1em;
-    margin: auto;
-    transition: all ease 0.4s;
+    color: var(--fg-color)
 }
 
-.testimonial-card:hover {
-    border: 1px solid var(--accent-color);
+.card--image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 1em auto;
 }
 
-.testimonial-card p {
-    font-family: var(--paragraph-font);
-    font-size: 1.3em;
+/* Card headshots */
+#pichai {
+    background: content-box url(../images/sundar_pichai.png) center no-repeat;
+    background-size: contain;
 }
+
+#cook {
+    background: content-box url(../images/tim_cook.png) center no-repeat;
+    background-size: contain;
+}
+
+#michael {
+    background: content-box url(../images/michael_scott.png) center no-repeat;
+    background-size: contain;
+}
+
+#bezos {
+    background: content-box url(../images/jeff_bezos.webp) center no-repeat;
+    background-size: contain;
+}
+
 
 /* Footer */
 
