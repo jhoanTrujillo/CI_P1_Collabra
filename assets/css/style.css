@@ -464,7 +464,7 @@ h2 {
 
     .btn {
         background-color: var(--accent-color);
-        color: var(--accent-color);
+        color: var(--bg-color);
         width: 100%;
     }
 
