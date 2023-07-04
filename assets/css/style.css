@@ -188,7 +188,7 @@ body {
 
 /* Homepage - Partner logos*/
 
-.clients {
+#clients {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,81 +254,14 @@ h2.clients__title {
     width: 80%;
 }
 
-/* Employee cards*/
+/* 
+* Employee Cards
+*/
 
-.employee-cards {
-    padding: 1em;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.employee-cards > h2 {
-    text-align: center;
-    padding-bottom: 1em;
-}
-
-.employee-cards > a {
-    text-align: center;
-    min-width: 50%;
-}
-
-.employee-cards__container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 70%;
-
-}
-
-.employee-card {
-    display: flex;
-    flex-direction: row;
-    padding: 2em;
-    margin: 0 auto;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 1px solid grey;
-    border-radius: 6px;
-    margin-bottom: 1em;
-}
-
-.employee-card:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-.employee-card__content-left {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    justify-content: center;
-}
-
-.employee-card__content-right {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.employee-card__title {
-    font-size: 200%;
-    color: var(--accent-color);
-}
-
-.employee-card__image {
-    width: 90%;
-    border-radius: 6px;
-}
-
-/* Testimonials */
 
 
 /* 
-* Testimonials cards
+* Testimonials Cards
 */
 
 #testimonials {
@@ -456,11 +389,14 @@ h2 {
 
     /* General mobile style */
     .paragraph {
-        font-size: 1em;
+        font-size: .9em;
+        line-height: 1.4em;
     }
     
     .title {
-        font-size: 2em;
+        font-size: 1.5em;
+        line-height: 1.3em;
+        margin-bottom: .3em;
     }
 
     .btn {
@@ -499,7 +435,11 @@ h2 {
         margin-top: 1.5em;
     }
     
-    /* Client Logos Section mobile */
+    /* Client Section - Mobile */
+
+    #clients {
+        
+    }
 
     .clients h2 {
         padding-top: 1.5em;
@@ -510,10 +450,8 @@ h2 {
     .clients__logos {
         grid-template-columns: none;
         grid-template-rows: repeat(3, 1fr);
-        border: none;
-        border-top: 1px solid grey;
-        border-bottom: 1px solid grey;
-        border-radius: 0;
+        border: 1px solid grey;
+        border-radius: 16px;
     }
 
     .clients__partner-logo {
@@ -537,53 +475,11 @@ h2 {
         margin-top: 1em;
     }
 
-    /* Employee cards mobile*/
+    /* 
+    * Employee Cards - Mobile
+    */
 
-    .employee-cards {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
-    }
     
-    .employee-cards__container {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        width: 90%;
-        gap: 1em;
-    }
-
-    .employee-card {
-        display: flex;
-        flex-direction: column-reverse;
-        padding: 1em 0;
-        justify-content: space-around;
-        align-items: center;
-        border-radius: 4px;
-        gap: 1em
-    }
-
-    .employee-card__image {
-        width: 100%;
-        border-radius: 4px;
-    }
-
-    .employee-card__title {
-        font-size: 1.5em;
-        color: var(--accent-color);
-    }
-
-    .employee-card:nth-child(even) {
-        display: flex;
-        flex-direction: column-reverse;
-        padding: 1em 0;
-        justify-content: space-around;
-        align-items: center;
-        border-radius: 4px;
-        gap: 1em
-    }
 
     /* 
     * Testimonials cards - mobile
