@@ -1,10 +1,34 @@
 /* Talent Page only style */
+.talent-cards__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
-.talent {
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    height: 50vh;
-    align-items: center;
-    justify-content: center;
+}
+
+.talent-cards__title {
+    font-size: 2em;
+    color: rgb(98, 214, 171);
+}
+
+.talent-card {
+    width: 100%;
+    height: 500px;
+}
+
+#team-member-1 {
+    background: url(../images/employee_1.jpg) no-repeat center;
+    background-size: cover;
+}
+#team-member-2 {
+    background: url(../images/employee_2.jpg) no-repeat center;
+    background-size: cover;
+}
+#team-member-3 {
+    background: url(../images/employee_3.jpg) no-repeat center;
+    background-size: cover;
+}
+#team-member-4 {
+    background: url(../images/employee_4.jpg) no-repeat center;
+    background-size: cover;
 }
