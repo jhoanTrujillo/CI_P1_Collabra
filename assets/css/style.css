@@ -324,22 +324,22 @@ h2 {
 
 /* Card headshots */
 #pichai {
-    background: content-box url(../images/sundar_pichai.png) center no-repeat;
+    background: content-box url(https://jhoantrujillo.github.io/CI_P1_Collabra/assets/images/sundar_pichai.png) center no-repeat;
     background-size: contain;
 }
 
 #cook {
-    background: content-box url(../images/tim_cook.png) center no-repeat;
+    background: content-box url(https://jhoantrujillo.github.io/CI_P1_Collabra/assets/images/tim_cook.png) center no-repeat;
     background-size: contain;
 }
 
 #michael {
-    background: content-box url(../images/michael_scott.png) center no-repeat;
+    background: content-box url(https://jhoantrujillo.github.io/CI_P1_Collabra/assets/images/michael_scott.png) center no-repeat;
     background-size: contain;
 }
 
 #bezos {
-    background: content-box url(../images/jeff_bezos.webp) center no-repeat;
+    background: content-box url(https://jhoantrujillo.github.io/CI_P1_Collabra/assets/images/jeff_bezos.webp) center no-repeat;
     background-size: contain;
 }
 
