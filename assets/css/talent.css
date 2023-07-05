@@ -7,8 +7,11 @@
 }
 
 .talent-cards__title {
-    font-size: 2em;
-    color: rgb(98, 214, 171);
+    font-size: 4em;
+    color: #262626;
+    background-color: rgb(98, 214, 171);
+    padding: 2em;
+    text-align: center;
 }
 
 .talent-card {
