@@ -93,6 +93,13 @@ body {
     margin-right: 1em;
 }
 
+input, select, textarea{
+    color: var(--fg-color);
+}
+
+textarea:focus, input:focus {
+    color: var(--fg-color);
+}
 /* Glossy background style */
 .glossy {
     background: rgba(255, 255, 255, 0.09);
@@ -197,7 +204,7 @@ body {
     border-color: var(--accent-color);
 }
 
-.signup__form  button {
+.signup__button {
     position: absolute;
     border-radius: 9999px;
     right: 1.5%;
@@ -210,7 +217,7 @@ body {
     transition: all ease .4s;
 }
 
-.signup__form  button:hover {
+.signup__button:hover {
     background-color: rgb(109, 246, 168);
 }
 
@@ -223,12 +230,6 @@ body {
     padding-left: 1em;
     margin-top: 1em;
     margin-right: 1em;
-}
-
-.signup__button {
-    font-family: var(--paragraph-font);
-    width: 30%;
-    margin-top: 1em;
 }
 
 .signup__image {
@@ -418,16 +419,54 @@ h2 {
     background-color: var(--bg-color);   
     gap: 1em;
     padding: 2em 5em;
-    justify-content: center;
     align-items: center;
 }
 
+
 .footer__container {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.footer__social {
-    
+.footer__container p {
+    width: auto;
+    font-size: 1em;
+    font-family: var(--paragraph-font);
+    text-shadow: var(--shadow);
+    line-height: 1.3;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.footer-form{
+    position: relative;
+    width: 70%;
+}
+
+.footer-form .signup-field {
+    width: 100%;
+    min-height: 38px;
+    border-radius: 9999px;
+    border: 2px solid black;
+    padding: 1em;
+    transition: all ease .4s;
+}
+
+.footer-form .signup-field:focus {
+    border-color: var(--accent-color-action);
+}
+
+.footer-form .signup__button {
+    right: 6px;
+    bottom: 13%;
+    height: 35px;
+    padding: .2em 1em;
+    transition: all ease .4s;
 }
 
 .footer__icon-list {
@@ -485,20 +524,27 @@ h2 {
 
     /* Signups mobile */
     .signup {
-        flex-direction: column;
+        grid-template-columns: 1fr;
+        margin-bottom: 3em;
+        padding: 2em;
+        gap: 0;
     }
 
-    .signup__form  input[type~=email] {
-        padding: .5em;
+    .signup__title {
+        font-size: 2.3em;
+        width: 90%;
     }
 
-    .signup__form button {
+    .signup__p {
+        font-size: 1.2em;
         width: 100%;
+        line-break: anywhere;
     }
+
 
     .signup__image {
         width: 80%;
-        margin-top: 1.5em;
+        margin-bottom: 2em;
     }
     
     /* Client Section - Mobile */
@@ -519,28 +565,6 @@ h2 {
         width: 70%;
         margin: 0 auto;
     }
-
-    /* Text with image */
-    .text-image {
-        flex-direction: column;
-        width: 100%;
-        padding: 0;
-        margin-top: 3em;
-        margin-bottom: 3em;
-    }
-
-    .text-image__title {
-        width: 100%;
-    }
-    .text-image__content p {
-        margin-top: 1em;
-    }
-
-    /* 
-    * Employee Cards - Mobile
-    */
-
-
 
     /* 
     * Testimonials cards - mobile
@@ -599,5 +623,9 @@ h2 {
         flex-direction: column-reverse;
         align-items: flex-start;
         padding: 2em;
+    }
+    
+    .footer-form {
+        width: 100%;
     }
 }

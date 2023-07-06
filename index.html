@@ -32,12 +32,13 @@
             <p class="signup__p">Sky rocket your project management with our team of experts.</p>
             <form class="signup__form" action="https://formdump.codeinstitute.net/" method="POST">
                 <div >
-                    <input type="email" name="signup" class="signup-field" placeholder="Enter your email" required>
-                    <button type="submit" class=""><strong>Get started</strong></button>
+                    <label for="hero-signup" style="display: none;">Contact Email</label>
+                    <input type="email" id="hero-signup" name="email-signup" class="signup-field" placeholder="Enter your email" required>
+                    <button type="submit" class="signup__button"><strong>Get started</strong></button>
                 </div>
             </form>
         </div>
-        <img src="https://jhoantrujillo.github.io/CI_P1_Collabra/assets/images/space.svg" alt="Image description" class="signup__image">
+        <img src="https://jhoantrujillo.github.io/CI_P1_Collabra/assets/images/space.svg" alt="A spaceship in the middle of space" class="signup__image">
     </section>
 
     <!-- -->
@@ -45,11 +46,39 @@
     <section id="methodology">
         <div>
             <h2>From Agile to Waterfall and everything in between</h2>
+            <p>We provide the most up-to-date and flexible solution for project management</p>
         </div>
-        <div class="">
-            <div class="methodology"></div>
-            <div class=""></div>
-            <div class=""></div>
+        <div class="card-deck">
+            <div class="card">
+                <h3>Waterfall</h3>
+                <p>
+                    follows a linear, sequential approach. It involves completing each phase of a project 
+                    before moving on to the next, with little room for flexibility or iteration.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Agile</h3>
+                <p>
+                    emphasizes collaboration, adaptive planning, and iterative development. 
+                    It encourages cross-functional teams to deliver incremental value, 
+                    respond to changes, and prioritize customer satisfaction.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Scrum</h3>
+                <p>
+                    Focuses on iterative and incremental development. It emphasizes self-organizing teams and regular 
+                    collaboration, with work divided into time-boxed sprints to deliver functional increments of a product.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Kanban</h3>
+                <p>
+                    Uses visual boards to track and manage work. It promotes a continuous flow of tasks 
+                    by limiting work in progress and emphasizing the importance of completing one 
+                    task before starting another.
+                </p>
+            </div>
         </div>
     </section>
 
@@ -133,9 +162,9 @@
         <div class="newsletter">
             <h3 class="title">Stay up to date</h3>
             <p class="paragraph">The latest Project Management trends, tips, and techniques, in your inbox.</p>
-            <form action="https://formdump.codeinstitute.net/" method="POST">
-                <input type="email" name="" id="">
-                <input type="button" value="Stay in Touch">
+            <form action="https://formdump.codeinstitute.net/" method="POST" class="footer-form">
+                <input type="email" id="hero-signup" name="email-signup" class="signup-field" placeholder="Enter your email" required>
+                <button type="submit" class="signup__button">Get started</button>
             </form>
         </div>
   
