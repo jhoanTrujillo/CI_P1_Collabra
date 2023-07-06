@@ -4,7 +4,6 @@
 * Open Sans - Regluar and Bold
 * Montserrat - Regluar and Bold
 */
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
 /* CSS variables*/
@@ -14,16 +13,16 @@
     /*Foreground Color*/
     --fg-color: #fafafa;
     /* Accent */
-    --accent-color: rgb(98, 214, 171);
+    --accent-color: #62d6ab;
     /* Accent when action such as hover effects or highlights are needed */
-    --accent-color-action: #3a8469;
+    --accent-color-action: rgb(117 232 166);
     
     /* Fonts */
     --heading-font: "Open sans", sans-serif;
     --paragraph-font: "Montserrat", sans-serif;
 
     /* Text Shadow */
-    --text-shadow: 1px 1px 1px var(--bg-color);
+    --shadow: -1px 1px 3px black;
 }
 
 /* CSS reset */
@@ -137,15 +136,37 @@ body {
 /* Homepage - Sign up */
 
 .signup {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 5em;
     gap: 10%;
 }
 
+.signup__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    line-break: auto;
+    margin: 10% auto;
+}
+
 .signup__title {
-    width: 100%;
+    max-width: 100%;
+    font-size: 3.5em;
+    font-family: var(--heading-font), sans-serif;
+    font-weight: bold;
+    color: var(--accent-color);
+    text-shadow: --shadow;
+}
+
+.signup__p {
+    width: 70%;
+    font-size: 1em;
+    font-family: var(--paragraph-font);
+    text-shadow: var(--shadow);
+    margin: 1em 0;
+    line-height: 1.6em;
 }
 
 .signup__form {
@@ -211,7 +232,7 @@ body {
 }
 
 .signup__image {
-    width: 50%;
+    width: 100%;
     animation: fadeInAnimation ease 3s;
     transition: ease 0.4s;
 }
