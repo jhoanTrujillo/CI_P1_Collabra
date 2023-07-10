@@ -35,6 +35,16 @@
     outline: none; 
 }
 /* General Style */
+h1, 
+h2, 
+h3, 
+h4 {
+
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
 
 body {
     color: var(--fg-color);
@@ -54,7 +64,7 @@ body {
 .paragraph {
     width: 100%;
     font-size: 1.5em;
-    font-family: var(--paragraph-font);
+    
     text-shadow: var(--text-shadow);
 }
 
@@ -606,6 +616,62 @@ h2 {
     .signup__image {
         width: 80%;
         margin-bottom: 2em;
+    }
+
+
+/* Methodology Section Index Page  - Mobile */
+
+    #methodology {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #methodology h2 {
+        width: 50%;
+        margin: 0 0 0 2em;
+        text-align: left;
+        font-size: 2em;
+        color: var(--accent-color);
+    }
+    
+    #methodology h2+p {
+        margin-left: 4em;
+        margin-top: 1em;
+        margin-bottom: 2em;
+        width: 70%;
+        text-align: left;
+
+    }
+
+    #methodology 
+    .card-deck  {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: none;
+        gap: 0;
+        margin: 2em 1em 3em 1em;
+    }
+
+    #methodology 
+    .methodology__card  {
+        background: var(--fg-color);
+        color: var(--bg-color);
+        position: relative;
+        overflow: hidden;
+        text-align: left;
+    }
+
+    #methodology 
+    .methodology__card 
+    h3 {
+        font-size: 2em;
+    }
+
+    #methodology 
+    .methodology__card
+    p  {
+        color: var(--bg-color)
     }
     
     /* Client Section - Mobile */
