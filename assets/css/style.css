@@ -251,6 +251,66 @@ textarea:focus, input:focus {
      }
 }
 
+/* Methodology Section Index Page */
+
+#methodology {
+    text-align: center;
+    margin: 2em 5em;
+    padding: 2em;
+}
+
+#methodology 
+.card-deck  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    margin: 1em;
+}
+
+#methodology 
+.methodology__card  {
+    background: var(--fg-color);
+    color: var(--bg-color);
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+}
+
+#methodology 
+.methodology__card
+p  {
+    color: var(--bg-color)
+}
+
+.color-ball {
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    border: none;
+}
+
+.ball-1 {
+    background-color: #ff5281;
+    right: -2em;
+    bottom: -1em;
+}
+
+.ball-2 {
+    background-color: #51c875;
+    right: -2em;
+    top: -1em;
+}
+
+.ball-3 {
+    background-color: #ff9452;
+    bottom: -2em;
+}
+
+.ball-4 {
+    background-color: #de8ae5;
+    right: -2em;
+}
 /* Homepage - Partner logos*/
 
 #clients {
