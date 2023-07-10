@@ -344,8 +344,7 @@ h2.clients__title {
 }
 
 .testimonials__container 
-p
-h2 {
+p {
     color: var(--bg-color);
     line-height: 1.2em;
 }
@@ -354,6 +353,7 @@ h2 {
 h2 {
     margin-top: 1em;
     font-size: 2em;
+    color: var(--bg-color);
 }
 
 .card-deck {
@@ -368,6 +368,7 @@ h2 {
     justify-content: center;
     background-color: var(--bg-color);
     border-radius: 16px;
+    padding: 1em;
 
     /* Browser compatible box shadow*/
     box-shadow: 0px 0px 33px -6px rgba(0,0,0,0.45);
@@ -580,10 +581,6 @@ h2 {
     }
 
     /*testimonial title margin from top*/
-    .testimonials__container
-    h2 {
-        margin-top: 1em;
-    }
 
     .card-deck {
         display: grid;

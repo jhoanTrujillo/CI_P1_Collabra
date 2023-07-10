@@ -1,6 +1,8 @@
 # Collabra
 Developer: Jhoan Trujillo
 
+Link to [Live project](https://jhoantrujillo.github.io/CI_P1_Collabra/)
+
 <!-- Responsible image testing -->
 
 ## Introduction
@@ -30,7 +32,15 @@ Collabra is a static website designed to mimic the user experience of contractin
 9. Credits
 
 ## Project Goals
-Placeholder
+
+The Collabra project aims to revolutionize project management outsourcing by providing a seamless platform for businesses to connect with skilled professionals. Our goals include:
+
+- Streamlining project management processes and eliminating complexities.
+- Connecting clients with highly qualified and experienced professionals.
+- Facilitating effective communication and collaboration between clients and project managers.
+- Optimizing resource allocation for efficient project execution.
+- Creating a user-friendly platform with a focus on usability and accessibility.
+- Through Collabra, we strive to transform the way projects are managed and executed, enabling businesses to achieve their goals efficiently and effectively.
 
 ### Site Owner Goals
 As site owner for Collabra, there is a couple of requirements for the site:
@@ -55,7 +65,11 @@ These are the design principels that guide the design choices for Collabra:
 
 
 ### Fonts
-Placeholder
+The Monserrat and Open Sans font pairing was carefully selected for our website project to create a visually harmonious and engaging user experience.
+
+Monserrat, with its clean lines, geometric shapes, and versatile letterforms, exudes a modern and professional vibe. Its balanced proportions and distinct readability make it an excellent choice for both headlines and body text.
+
+Complementing Monserrat, we opted for Open Sans as a versatile sans-serif font. Open Sans offers excellent legibility across different devices and screen sizes, ensuring a seamless reading experience for our users. Its friendly curves and open letterforms add a touch of warmth and approachability to the overall design. The extensive font weights and styles available within the Open Sans family provide us with ample flexibility to emphasize important information and create visual contrast.
 
 ### Color Scheme & Accessibility
 For the Collabra website, a color scheme was carefully chosen to strike a balance between seriousness and playfulness, reflecting trust, positive metrics, and flexibility. The color gamma consists of the following key colors:
@@ -77,12 +91,8 @@ By considering accessibility and using contrast-checked colors, the Collabra web
 ### Imagery
 Some sites use for the images of this project are: 
 
-- https://icons8.com/
 - https://undraw.co/
 - https://pexel.com
-
-## Technology Used
-Here I provide a break down of languages and technologies used when working on this project.
 
 ### Languages
 The main languages used to building Collabra are:
@@ -100,22 +110,25 @@ Some of the frameworks and conventions follow are:
 Between the tools used to build Collabra are:
 
 - VS code - Code editor of choice.
-- Coolors.com - To come up with the color scheme and test contrast
+- https://Coolors.com - To come up with the color scheme and test contrast
 - https://css.glass/ - Site where you can create background glassy effects for plain css.
 
 ## Wireframe
-Placeholder
+Below you can see images of the wireframe concept for the website:
+
+
 
 ## Features
-Placeholder
+The website counts with a main page, a talent portrait section, and a contact page:
+
+
 
 ## Testing 
 Some of the accessibility testing made for the project and the results: 
 
 
-
 ## Deployment
-Placeholder
+The project was deployed and hosted in Github, via github pages. [Live project](https://jhoantrujillo.github.io/CI_P1_Collabra/)
 
 ## Credits
-Place holder
+Links to the image credits used in the creation of the website.
