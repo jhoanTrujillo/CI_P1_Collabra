@@ -332,13 +332,17 @@ p  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3em;
+    width: 80%;
+    margin: 5em auto;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    background: var(--bg-color);
 }
 
-h2.clients__title {
+#clients h2 {
+    margin: 1em;
     text-align: center;
-    font-size: 3em;
-    padding: 0.5em 0 1em 0;
+    color: var(--accent-color);
 }
 
 .clients__logos {
@@ -346,11 +350,9 @@ h2.clients__title {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 5em;
-    padding: 3em;
     max-width: 70%;
-    border: 1px solid #636262;
-    border-radius: 6px;
-    margin-bottom: 1em ;
+    border: none;
+    margin-bottom: 4em;
 }
 
 .clients__partner-logo {
@@ -683,8 +685,6 @@ h2 {
     .clients__logos {
         grid-template-columns: none;
         grid-template-rows: repeat(3, 1fr);
-        border: 1px solid grey;
-        border-radius: 16px;
     }
 
     .clients__partner-logo {
@@ -775,8 +775,6 @@ h2 {
     .mobile-hidden {
         display: none;
     }
-
-/* Signup Section - Tablet */
 
 
 
