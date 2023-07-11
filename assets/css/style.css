@@ -156,8 +156,10 @@ textarea:focus, input:focus {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    padding: 5em;
-    gap: 10%;
+    padding: 3em;
+    gap: 1em;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .signup__container {
@@ -170,7 +172,7 @@ textarea:focus, input:focus {
 
 .signup__title {
     max-width: 100%;
-    font-size: 3.5em;
+    font-size: 280%;
     font-family: var(--heading-font), sans-serif;
     font-weight: bold;
     color: var(--accent-color);
@@ -243,9 +245,10 @@ textarea:focus, input:focus {
 }
 
 .signup__image {
-    width: 100%;
+    width: 80%;
     animation: fadeInAnimation ease 3s;
     transition: ease 0.4s;
+    margin: 0 auto;
 }
 
 .signup__image:hover {
@@ -265,16 +268,17 @@ textarea:focus, input:focus {
 
 #methodology {
     text-align: center;
-    margin: 2em 5em;
-    padding: 2em;
+    margin: 3em 0;
 }
 
 #methodology 
 .card-deck  {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 1em;
-    margin: 1em;
+    margin: 1em auto;
+    width: 70%;
 }
 
 #methodology 
@@ -388,12 +392,6 @@ h2.clients__title {
 .text-image__content {
     width: 80%;
 }
-
-/* 
-* Employee Cards
-*/
-
-
 
 /* 
 * Testimonials Cards
@@ -628,8 +626,8 @@ h2 {
     }
 
     #methodology h2 {
-        width: 50%;
-        margin: 0 0 0 2em;
+        width: 70%;
+        margin: 0 auto;
         text-align: left;
         font-size: 2em;
         color: var(--accent-color);
@@ -647,10 +645,11 @@ h2 {
     #methodology 
     .card-deck  {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-template-columns: none;
-        gap: 0;
-        margin: 2em 1em 3em 1em;
+        gap: 1em;
+        margin: 4em auto;
+        width: 80%;
     }
 
     #methodology 
@@ -751,4 +750,88 @@ h2 {
     .footer-form {
         width: 100%;
     }
+}
+
+@media screen and (max-width: 900px and min-width: 800px) {
+
+/* Tablet View */
+    .paragraph {
+        font-size: .9em;
+        line-height: 1.4em;
+    }
+    
+    .title {
+        font-size: 1.5em;
+        line-height: 1.3em;
+        margin-bottom: .3em;
+    }
+
+    .btn {
+        background-color: var(--accent-color);
+        color: var(--bg-color);
+        width: 100%;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+
+/* Signup Section - Tablet */
+
+
+
+/* Methodology Section Index Page  - Mobile */
+
+    #methodology {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #methodology h2 {
+        width: 53%;
+        margin: 3em auto 0 auto;
+        text-align: left;
+        font-size: 2em;
+        color: var(--accent-color);
+    }
+
+    #methodology h2+p {
+        margin: .5em auto;
+        width: 53%;
+        text-align: left;
+        width: 53%;
+    }
+
+    #methodology 
+    .card-deck  {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        margin: 4em auto;
+        width: 80%;
+    }
+
+    #methodology 
+    .methodology__card  {
+        background: var(--fg-color);
+        color: var(--bg-color);
+        position: relative;
+        overflow: hidden;
+        text-align: left;
+    }
+
+    #methodology 
+    .methodology__card 
+    h3 {
+        font-size: 2em;
+    }
+
+    #methodology 
+    .methodology__card
+    p  {
+        color: var(--bg-color)
+    }
+
 }
