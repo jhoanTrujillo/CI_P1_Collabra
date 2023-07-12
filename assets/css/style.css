@@ -35,12 +35,6 @@
     outline: none; 
 }
 /* General Style */
-h1, 
-h2, 
-h3, 
-h4 {
-
-}
 
 p {
     font-family: var(--paragraph-font);
@@ -205,11 +199,11 @@ textarea:focus, input:focus {
     width: 100%;
     min-height: 50px;
     border-radius: 9999px;
-    background-color: #262626;
+    background-color: #000;
     border: 2px solid black;
     padding: 1em;
     transition: all ease .4s;
-    box-shadow: 1px 1px 99px 1px black inset;
+    padding-right: 30%;
 }
 
 .signup-field:focus {
@@ -547,6 +541,7 @@ h2 {
     border: 2px solid black;
     padding: 1em;
     transition: all ease .4s;
+    padding-right: 40%;
 }
 
 .footer-form .signup-field:focus {
