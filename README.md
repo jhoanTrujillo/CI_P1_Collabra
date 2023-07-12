@@ -119,7 +119,7 @@ Below you can see images of the wireframe concept for the website:
 
 
 ## Features
-The website counts with a main page, a talent portrait section, and a contact page:
+
 
 
 

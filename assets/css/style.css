@@ -16,7 +16,8 @@
     --accent-color: #62d6ab;
     /* Accent when action such as hover effects or highlights are needed */
     --accent-color-action: rgb(117 232 166);
-    
+    /* Border Color*/
+    --border-color: #4d4c4c;
     /* Fonts */
     --heading-font: "Open sans", sans-serif;
     --paragraph-font: "Montserrat", sans-serif;
@@ -298,8 +299,8 @@ h2 + p {
 
 #methodology 
 .methodology__card  {
-    background: var(--fg-color);
-    color: var(--bg-color);
+    background: var(--bg-color);
+    color: var(--fg-color);
     position: relative;
     overflow: hidden;
     text-align: left;
@@ -308,7 +309,7 @@ h2 + p {
 #methodology 
 .methodology__card
 p  {
-    color: var(--bg-color)
+    color: var(--fg-color)
 }
 
 .color-ball {
@@ -347,9 +348,9 @@ p  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 70%;
     margin: 5em auto;
-    border: 1px solid #333333;
+    border: 1px solid var(--border-color);
     border-radius: 6px;
     background: var(--bg-color);
 }
@@ -422,9 +423,9 @@ p  {
 
 .testimonials__container {
     display: grid;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     gap: 2em;
 }
 
@@ -437,7 +438,7 @@ p {
 .testimonials__container
 h2 {
     margin-top: 1em;
-    font-size: 2em;
+    font-size: 260%;
     color: var(--bg-color);
 }
 
@@ -454,7 +455,7 @@ h2 {
     background-color: var(--bg-color);
     border-radius: 16px;
     padding: 1em;
-
+    border: 1px solid var(--border-color);
     /* Browser compatible box shadow*/
     box-shadow: 0px 0px 33px -6px rgba(0,0,0,0.45);
     -webkit-box-shadow: 0px 0px 33px -6px rgba(0,0,0,0.45);
@@ -538,7 +539,7 @@ h2 {
     width: 100%;
     min-height: 38px;
     border-radius: 9999px;
-    border: 2px solid black;
+    border: 2px solid #000000;
     padding: 1em;
     transition: all ease .4s;
     padding-right: 40%;
@@ -829,11 +830,12 @@ h2 {
 
     #methodology 
     .methodology__card  {
-        background: var(--fg-color);
-        color: var(--bg-color);
+        background: var(--bg-color);
+        color: var(--fg-color);
         position: relative;
         overflow: hidden;
         text-align: left;
+        border: 1px solid var(--border-color);
     }
 
     #methodology 
