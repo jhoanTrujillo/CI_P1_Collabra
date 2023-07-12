@@ -271,6 +271,27 @@ textarea:focus, input:focus {
     margin: 3em 0;
 }
 
+#methodology > div {
+    margin-bottom: 2em;
+}
+
+#methodology 
+h2 {
+    color: var(--accent-color);
+    font-size: 260%;
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#methodology 
+h2 + p {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.5;
+} 
+
 #methodology 
 .card-deck  {
     display: grid;
