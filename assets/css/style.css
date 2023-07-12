@@ -417,7 +417,7 @@ p  {
 
 #testimonials {
     width: 100%;
-    background-color: var(--accent-color);
+    background-color: var(--bg-color);
     padding: 1em;
 }
 
@@ -427,11 +427,12 @@ p  {
     margin: 0 auto;
     grid-template-columns: auto;
     gap: 2em;
+    text-align: center;
 }
 
 .testimonials__container 
 p {
-    color: var(--bg-color);
+    color: var(--fg-color);
     line-height: 1.2em;
 }
 
@@ -439,7 +440,7 @@ p {
 h2 {
     margin-top: 1em;
     font-size: 260%;
-    color: var(--bg-color);
+    color: var(--accent-color);
 }
 
 .card-deck {
@@ -746,6 +747,7 @@ h2 {
     .card p {
         line-height: 1.5em;
         padding: 1em;
+        text-align: left;
         color: var(--fg-color)
     }
 
@@ -769,7 +771,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 900px and min-width: 800px) {
+@media screen and (max-width: 900px) {
 
 /* Tablet View */
     .paragraph {
@@ -847,7 +849,19 @@ h2 {
     #methodology 
     .methodology__card
     p  {
-        color: var(--bg-color)
+        color: var(--fg-color);
+        width: 100%;
     }
+
+    /* Client logos - Tablet */
+
+    #clients {
+        width: 80%;
+    }
+
+    .clients__logos {
+        width: 90%;
+    }
+
 
 }
