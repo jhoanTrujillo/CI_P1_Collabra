@@ -691,7 +691,7 @@ h2 {
     #methodology 
     .methodology__card
     p  {
-        color: var(--bg-color)
+        color: var(--fg-color)
     }
     
     /* Client Section - Mobile */
