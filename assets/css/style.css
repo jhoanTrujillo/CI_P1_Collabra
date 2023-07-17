@@ -674,11 +674,12 @@ h2 {
 
     #methodology 
     .methodology__card  {
-        background: var(--fg-color);
-        color: var(--bg-color);
+        background: var(--bg-color);
+        color: var(--fg-color);
         position: relative;
         overflow: hidden;
         text-align: left;
+        border: 1px solid var(--border-color);
     }
 
     #methodology 
