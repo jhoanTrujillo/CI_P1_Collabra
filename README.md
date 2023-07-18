@@ -1,9 +1,8 @@
 # Collabra
 Developer: Jhoan Trujillo
-
 Link to [Live project](https://jhoantrujillo.github.io/CI_P1_Collabra/)
 
-<!-- Responsible image testing -->
+![](https://jhoantrujillo.github.io/CI_P1_Collabra/project_resources/mockup.png)
 
 ## Introduction
 Collabra is a static website designed to mimic the user experience of contracting companies. As a fictitious project management firm, Collabra offers a range of talented professionals available for hire. Clients can browse through a portfolio of skilled project managers, consultants, and team members. Attention to detail, and a commitment to on-time, on-budget delivery, Collabra ensures a seamless and successful project execution.
@@ -24,9 +23,6 @@ Collabra is a static website designed to mimic the user experience of contractin
    - Tools
 5. Wireframe
 6. Features
-   - Home Page
-   - Talent
-   - Consultation
 7. Testing
 8. Deployment
 9. Credits
@@ -51,8 +47,36 @@ As site owner for Collabra, there is a couple of requirements for the site:
 - Establish Collabra as a trusted and competent project management firm.
 - Emphasize the company's commitment to client satisfaction and successful project outcomes.
 
-## User Experience
-placeholder
+## User Experience Design
+
+### Target Audience
+he mockup website caters to a diverse audience of project managers, business owners, entrepreneurs, and individuals seeking talent and specialized skills for their projects. If you fall under any of the following categories, the website is designed to meet your needs:
+
+- Project Managers: Professionals responsible for overseeing projects in various industries, looking to outsource specific tasks or find skilled individuals to join their teams for successful project completion.
+
+- Business Owners & Entrepreneurs: Individuals running businesses or startups, seeking project management assistance and expertise in specific areas without the need for full-time hires.
+
+- Freelancers & Skilled Professionals: Independent contractors or specialists with expertise in fields like software development, web design, marketing, and more, looking to offer their services and collaborate on diverse projects.
+
+- Companies Requiring Temporary Expertise: Businesses that require specialized skills for short-term projects or to fill skill gaps within their teams.
+
+The website provides a user-friendly platform for seamless talent search, talent profile evaluation, and straightforward communication, ensuring a productive and efficient collaboration process for all members of our target audience. Whether you're a project manager looking for the right talent or a skilled professional seeking exciting opportunities, this platform aims to connect and empower users in achieving their project goals.
+
+### Requirements
+**Functional Requirements**:
+- Main Page: The website must have a clear and easily digestible main page that introduces the company and its services.
+- Talent Profiles: An area for hiring companies to look at the variety of talent.
+- Success Stories: The site must showcase success stories and client testimonials to build credibility and trust in the platform's capabilities.
+
+**Technical Requirements**:
+- HTML Structure: The website should use valid HTML markup, ensuring proper rendering across browsers and devices.
+- CSS Styling: Utilize CSS to style the website consistently, making it visually appealing and user-friendly.
+- Responsive Design: Ensure the site is responsive and mobile-friendly, providing a seamless experience across various devices.
+
+### User stories
+**User Story 1**: As a project manager seeking skilled talent for my upcoming software development project, I want to easily browse through a diverse pool of experienced professionals on the outsourcing website. This way, I can efficiently find and engage with candidates who possess the specific skills and expertise required for my project's success.
+**User Story 2**: As a project manager, I need a straightforward communication system on the website to connect with potential talent quickly. This will ensure a smooth onboarding process for my team and the selected candidate.
+**User Story 3**:As a user, I expect to see success stories and client testimonials on the website, showcasing previous collaborations. This will build trust and confidence in the platform's ability to provide high-quality talent.
 
 ## Design Principels 
 These are the design principels that guide the design choices for Collabra:
@@ -72,21 +96,17 @@ Monserrat, with its clean lines, geometric shapes, and versatile letterforms, ex
 Complementing Monserrat, we opted for Open Sans as a versatile sans-serif font. Open Sans offers excellent legibility across different devices and screen sizes, ensuring a seamless reading experience for our users. Its friendly curves and open letterforms add a touch of warmth and approachability to the overall design. The extensive font weights and styles available within the Open Sans family provide us with ample flexibility to emphasize important information and create visual contrast.
 
 ### Color Scheme & Accessibility
-For the Collabra website, a color scheme was carefully chosen to strike a balance between seriousness and playfulness, reflecting trust, positive metrics, and flexibility. The color gamma consists of the following key colors:
+For the Collabra website, we carefully curated a color scheme that strikes a balance between seriousness and playfulness, reflecting trust, positive metrics, and flexibility. The color gamma comprises the following key colors:
 
-Background: #262626
-Foreground: #fafafa
-Accent 1: #D6D0FB
-Accent 2: #9DE1C8
-All colors in the Collabra color scheme have been carefully checked for contrast to ensure accessibility for all users.
+- **Background**: `#262626`
+- **Foreground**: `#fafafa`
+- **Accent**: `#62d6ab`
 
-The choice of a dark background (#262626) provides a sense of stability and sophistication, while the light foreground color (#fafafa) ensures readability and contrast.
+Every color in the Collabra color scheme has been meticulously checked for contrast, ensuring accessibility for all users.
 
-Accent color #D6D0FB is employed to convey trust and reliability, serving as a prominent color for important elements throughout the website. This color choice fosters a professional and serious atmosphere.
+The dark background (#262626) provides a sense of stability and sophistication, while the light foreground color (#fafafa) ensures optimal readability and contrast.
 
-Additionally, accent color #9DE1C8 adds a touch of playfulness and flexibility to the color scheme. It injects a vibrant and refreshing feel, harmonizing with the overall design while reflecting positive metrics and adaptability.
-
-By considering accessibility and using contrast-checked colors, the Collabra website achieves both a visually appealing design and a user-friendly experience for all visitors.
+By prioritizing accessibility and employing contrast-checked colors, the Collabra website achieves both a visually appealing design and a user-friendly experience for all visitors.
 
 ### Imagery
 Some sites use for the images of this project are: 
@@ -120,15 +140,30 @@ Below you can see images of the wireframe concept for the website:
 
 ## Features
 
+- **Easily Digestible Main Page**: The website boasts an easily digestible main page that simplifies the understanding of Collabra's core offerings. It guides customers through a seamless journey, providing a clear understanding of what Collabra does and directs them to an intuitive method of contact through the hero section.
 
+- **User-Friendly Contact Forms**: Collabra's contact forms are designed with simplicity in mind. They are straightforward and easy to fill, ensuring a smooth communication channel between users and the company.
 
+- **Project Management Methodologies Showcase**: The website includes a dedicated section that showcases various project management methodologies. This feature highlights Collabra's expertise in diverse approaches, helping potential clients understand the company's versatility and competence.
+
+- **Client Showcase and Testimonials**: Collabra proudly presents a section dedicated to displaying their esteemed clients. Alongside this, authentic testimonials from satisfied clients showcase the company's track record and client satisfaction.
+
+- **Talent Section with Employee Pictures**: The site introduces a talent section that spotlights the incredible team behind Collabra's success. Visitors can view pictures of the employees, fostering a sense of transparency and human connection.
+
+The Collabra website prioritizes user experience by offering a concise and engaging main page, facilitating easy communication with user-friendly forms. The inclusion of project management methodologies, client showcases, and testimonials further underscores the company's expertise and credibility. Lastly, the talent section humanizes the brand, allowing visitors to connect with the people who make Collabra exceptional.
 
 ## Testing 
-Some of the accessibility testing made for the project and the results: 
+An assortment of tools were use to ensure the accessibility, responsiveness, and proper functionality. Between those we have:
+
+- https://wave.webaim.org/ - and amazing accessibility checker that looks into your site and provides clear clues as to what could be missing to make your site accessible.
+- https://webaim.org/resources/contrastchecker/ - Color contrast checker, this was done to ensure the colors had the best possible rating for accessibility.
 
 
 ## Deployment
 The project was deployed and hosted in Github, via github pages. [Live project](https://jhoantrujillo.github.io/CI_P1_Collabra/)
 
 ## Credits
-Links to the image credits used in the creation of the website.
+Credits to some of the pictures taken from pexel, Design and ideas for layout were original: 
+
+Photo by Emmy E: https://www.pexels.com/photo/woman-standing-while-holding-tablet-2381094/
+Photo by Andrea Piacquadio: https://www.pexels.com/photo/sad-mature-businessman-thinking-about-problems-in-living-room-3772618/
