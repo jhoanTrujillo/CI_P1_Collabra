@@ -171,3 +171,4 @@ Credits to some of the pictures taken from pexel, Design and ideas for layout we
 
 Photo by Emmy E: https://www.pexels.com/photo/woman-standing-while-holding-tablet-2381094/
 Photo by Andrea Piacquadio: https://www.pexels.com/photo/sad-mature-businessman-thinking-about-problems-in-living-room-3772618/
+Flaticon Favicon Icon: "https://www.flaticon.com/free-icons/agile" 
