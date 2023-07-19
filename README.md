@@ -133,14 +133,14 @@ Between the tools used to build Collabra are:
 - https://Coolors.com - To come up with the color scheme and test contrast
 - https://css.glass/ - Site where you can create background glassy effects for plain css.
 
-## Wireframe
+## Wireframe
 
 **Desktop Views**
 
 ![](https://jhoantrujillo.github.io/CI_P1_Collabra/project_resources/desktop_wireframe.png)
 
-
-
+**Mobile Views**
+![](https://jhoantrujillo.github.io/CI_P1_Collabra/project_resources/mobile_wireframe.png)
 
 ## Features
 
