@@ -161,6 +161,7 @@ An assortment of tools were use to ensure the accessibility, responsiveness, and
 
 - https://wave.webaim.org/ - and amazing accessibility checker that looks into your site and provides clear clues as to what could be missing to make your site accessible.
 - https://webaim.org/resources/contrastchecker/ - Color contrast checker, this was done to ensure the colors had the best possible rating for accessibility.
+- https://validator.w3.org/ - for validation testing of the HTML file.
 
 
 ## Deployment
