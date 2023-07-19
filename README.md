@@ -134,7 +134,11 @@ Between the tools used to build Collabra are:
 - https://css.glass/ - Site where you can create background glassy effects for plain css.
 
 ## Wireframe
-Below you can see images of the wireframe concept for the website:
+
+**Desktop Views**
+
+![](https://jhoantrujillo.github.io/CI_P1_Collabra/project_resources/desktop_wireframe.png)
+
 
 
 
